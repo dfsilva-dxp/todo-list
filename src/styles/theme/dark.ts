@@ -1,4 +1,4 @@
-export const dark = {
+const dark = {
   grid: {
     container: "142rem",
   },
@@ -44,3 +44,5 @@ export const dark = {
     green: "#015F43",
   },
 } as const;
+
+export default dark;
