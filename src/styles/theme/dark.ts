@@ -41,7 +41,7 @@ const dark = {
     text: "#E1E1E6",
     lightGray: "#C4C4CC",
     red: "#AA2834",
-    green: "#015F43",
+    green: "#76D8A4",
   },
 } as const;
 
