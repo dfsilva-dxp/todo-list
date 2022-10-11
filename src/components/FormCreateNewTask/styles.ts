@@ -42,6 +42,7 @@ export const Button = styled.button`
     &:hover,
     &:focus {
       color: ${theme.colors.green};
+      outline: none;
     }
   `}
 `;
