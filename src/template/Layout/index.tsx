@@ -1,14 +1,15 @@
-import { Banner } from "components";
+import { Banner, FormCreateNewTask } from "components";
 
 import { Container, Content } from "./styles";
 
-import { LayoutProps } from "./type";
-
-export default function Layout({ children }: LayoutProps) {
+export default function Layout() {
   return (
     <Content>
       <Banner />
-      <Container>{children}</Container>
+
+      <Container>
+        <FormCreateNewTask />
+      </Container>
     </Content>
   );
 }
