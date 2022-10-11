@@ -1,3 +1,5 @@
+import { Banner } from "components";
+
 import { Container, Content } from "./styles";
 
 import { LayoutProps } from "./type";
@@ -5,7 +7,7 @@ import { LayoutProps } from "./type";
 export default function Layout({ children }: LayoutProps) {
   return (
     <Content>
-      <h1>Header</h1>
+      <Banner />
       <Container>{children}</Container>
     </Content>
   );
