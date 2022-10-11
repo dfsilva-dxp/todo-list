@@ -21,9 +21,6 @@ const GlobalStyle = createGlobalStyle`
       background: ${theme.colors.background};
       color: ${theme.colors.text};
     }
-    :focus {
-      outline: transparent;
-    }
     body {
       overflow-x: hidden;
     }
@@ -45,6 +42,7 @@ const GlobalStyle = createGlobalStyle`
     select,
     button {
       font: 400 1rem ${theme.font.family}, sans-serif;
+      color: ${theme.colors.text};
     }
     span {
       display: inline-block;

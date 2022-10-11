@@ -3,8 +3,8 @@ const dark = {
     container: " 74rem",
   },
   border: {
-    radius: "0.4rem",
-    outlineOffiset: "0.2rem",
+    radius: "0.25rem",
+    outlineOffiset: "0.125rem",
   },
   font: {
     family:
@@ -15,20 +15,20 @@ const dark = {
       bold: 700,
     },
     sizes: {
-      xsmall: "1.2rem",
-      small: "1.4rem",
-      medium: "1.6rem",
-      large: "1.8rem",
-      xlarge: "2.0rem",
-      xxlarge: "2.8rem",
+      xsmall: "0.75rem",
+      small: "0.875rem",
+      medium: "1rem",
+      large: "1.125rem",
+      xlarge: "1.25rem",
+      xxlarge: "1.75rem",
     },
   },
   spacings: {
-    xxsmall: "0.8rem",
-    xsmall: "1.6rem",
-    small: "2.4rem",
-    medium: "3.2rem",
-    large: "4.0rem",
+    xxsmall: "0.5rem",
+    xsmall: "1rem",
+    small: "1.5rem",
+    medium: "2rem",
+    large: "2.5rem",
   },
   transition: {
     default: "0.3s ease-in-out",
