@@ -9,6 +9,7 @@ export default function Banner() {
           alt="Logotipo _DoIt"
           title="Logotipo _DoIt"
         />
+        <h4>Lista de tarefas</h4>
       </Navbar>
     </Container>
   );
