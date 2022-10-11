@@ -1,6 +1,6 @@
 const dark = {
   grid: {
-    container: "142rem",
+    container: " 74rem",
   },
   border: {
     radius: "0.4rem",
